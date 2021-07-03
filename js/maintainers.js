@@ -5,7 +5,7 @@ $.ajax({
         var newContent = ''; // Variable to hold HTML
         for (var i = 0; i < data.length; i++) { // Loop through object
             newContent += '<div id="event" class="team_item">';
-            newContent += '<img class="image crop" loading="lazy" style="min-height: 190px" src="' + data[i].avatar + '" ';
+            newContent += '<img class="image crop" loading="lazy" style="min-height: 100px" src="' + data[i].avatar + '" ';
             newContent += 'alt="' + data[i].mname + '" />';
             newContent += '<h3><b>' + data[i].mname + '</b></h3>';
             newContent += '<p class="team_data_text font-weight-bold">' + data[i].device + '</p>';
